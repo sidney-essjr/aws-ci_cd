@@ -5,3 +5,5 @@ import { AwsCiCdStack } from "../lib/aws-ci_cd-stack";
 
 const app = new cdk.App();
 new AwsCiCdStack(app, "AwsCiCdStack", {});
+
+app.synth();
